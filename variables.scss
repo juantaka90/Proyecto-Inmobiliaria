@@ -1,0 +1,43 @@
+$color1: gray;
+$color2: red;
+$color3: yellow;
+
+$width: 300px;
+$height: 150px;
+
+$porcentaje1: 100%;
+$porcentaje2: 50%;
+
+$small: 18px;
+$medium: 28px;
+$large: 38px;
+
+$color-1: #09C1F3;
+$color-2: #95A5A6;   
+$color-3: #373737; 
+
+$grupo-color: (
+    'Tumbleweed': #D69F7E,
+    'Coffe': #774936,
+    'Black': #3C0000,
+);
+@each $grupo-color, $i in $grupo-color {
+    .textoColor {
+        &.#{$grupo-color} {
+        color: $i;
+        }
+    }
+}
+$font-weight: (
+    'light': 160px,
+    'regular': 330px,
+    'medium': 630px,
+    'bold': 800px,
+);
+$iconos: 4;
+
+@for $i from 1 through $iconos {
+    .icon-#{$i} {
+        color: lighten($color: blue, $amount: $i * 5);
+    }
+}

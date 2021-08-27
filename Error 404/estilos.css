@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+    color: #09C1F3;
+    font-size: 85px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 25px;
+    color: #09C1F3;
+    text-align: center;
+}
+h3 {
+    font: 15px;
+    color: #09C1F3;
+    text-align: center;
+}
+img {
+    width: 350px;
+    display: block;
+    margin: auto;
+}

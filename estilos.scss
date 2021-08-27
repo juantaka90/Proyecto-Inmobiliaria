@@ -1,0 +1,131 @@
+@import "variables.scss";
+
+.table {
+    margin: 15px;
+    text-align: center; 
+    max-width: 50%;
+}
+h4 {
+    margin: 300px;
+    color: #09C1F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    max-width: 30%;
+    padding: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25rem;
+}
+.confirm {
+    margin-bottom: 25rem;
+}
+.title {
+    width: 100%;
+    height: 450px;
+}
+footer {
+    background-color: #373737;
+}
+i {
+    color: #09C1F3;
+}
+.imagenSlider {
+    width: 1100px;
+    height: 700px;
+}
+h3 {
+    font-weight: map-get($font-weight, 'medium');
+    text-align: center;
+}
+.row{
+    padding: $small;
+    margin: $medium;
+    justify-content: space-evenly;
+}
+.col-sm{
+    text-align: center;
+    font-size: $small;
+    color: $color-1;
+    text-shadow: 5px 5px 5px $color-2;
+    padding: $small;
+}
+.textoColor {
+    padding: $small;
+}
+.row {
+    justify-content: space-around;
+}
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.textoindex {
+    margin: 25px;
+    color:#09C1F3;
+}
+
+
+
+
+
+// .header__h1--color{
+//     color: red;
+// }
+// .header__h1{
+//     text-align: center;
+//     background-color: antiquewhite;
+//     font-size: 48px;
+//     font-family: fantasy;
+// }
+// .header__index--color{
+//     color:chocolate;
+// }
+// .header__index{
+//     text-align: center;
+//     font-size: 48px;
+//     font-family: cursive;
+//     background-color:cyan;
+// }
+// .header__alquileres--color{
+//     color:magenta;
+// }
+// .header__alquileres{
+//     font-size: 48px;
+//     font-family: monospace;
+//     text-align: center;
+//     background-color: mediumaquamarine;
+// }
+// .header__contacto--color{
+//     color:deeppink
+// }
+// .header__contacto{
+//     font-size: 48px;
+//     font-family: cursive;
+//     background-color: dimgray;
+//     text-align: center;
+// }
+
+.bloque__1{
+    text-align: center;
+    background-color: $color1;
+    width: ($porcentaje1) - ($porcentaje2)+55%;
+    height: $height/2.5;
+    font-size: $large;
+    color: $color-1;
+}
+.bloque__2{
+    background-color: $color3;
+    width: $porcentaje2;
+    height: $height/1.5;
+    color: $color2;
+    font-size: $small;
+    padding: $small;
+}
+.bloque__3{
+    background-color: $color3;
+    width: ($width)+260;
+    height: $height*1.2;
+    color: $color2;
+    font-size: $medium;
+}
