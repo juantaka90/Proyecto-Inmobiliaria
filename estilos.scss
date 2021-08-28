@@ -21,7 +21,7 @@ form{
 }
 .title {
     width: 100%;
-    height: 450px;
+    height: 370px;
 }
 footer {
     background-color: #373737;
@@ -112,13 +112,13 @@ iframe {
     width: ($porcentaje1) - ($porcentaje2)+55%;
     height: $height/2.5;
     font-size: $large;
-    color: $color-1;
+    color: #09C1F3;
 }
 .bloque__2{
     background-color: $color3;
     width: $porcentaje2;
     height: $height/1.5;
-    color: $color2;
+    color: #09C1F3;
     font-size: $small;
     padding: $small;
 }
@@ -126,6 +126,6 @@ iframe {
     background-color: $color3;
     width: ($width)+260;
     height: $height*1.2;
-    color: $color2;
+    color: #09C1F3;
     font-size: $medium;
 }
