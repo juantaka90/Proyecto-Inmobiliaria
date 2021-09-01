@@ -36,6 +36,11 @@ i {
 h3 {
     font-weight: map-get($font-weight, 'medium');
     text-align: center;
+    color:#09C1F3;
+}
+.texto{
+    color: #09C1F3;
+    padding: 1rem;
 }
 .row{
     padding: $small;
@@ -47,9 +52,6 @@ h3 {
     font-size: $small;
     color: $color-1;
     text-shadow: 5px 5px 5px $color-2;
-    padding: $small;
-}
-.textoColor {
     padding: $small;
 }
 .row {
@@ -119,7 +121,7 @@ p {
     color: #09C1F3;
 }
 .bloque__2{
-    background-color: $color3;
+    // background-color: $color3;
     width: $porcentaje2;
     height: $height/1.5;
     color: #09C1F3;

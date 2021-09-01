@@ -70,6 +70,12 @@ i {
 h3 {
   font-weight: 630px;
   text-align: center;
+  color: #09C1F3;
+}
+
+.texto {
+  color: #09C1F3;
+  padding: 1rem;
 }
 
 .row {
@@ -85,10 +91,6 @@ h3 {
   font-size: 18px;
   color: #09C1F3;
   text-shadow: 5px 5px 5px #95A5A6;
-  padding: 18px;
-}
-
-.textoColor {
   padding: 18px;
 }
 
@@ -123,7 +125,6 @@ p {
 }
 
 .bloque__2 {
-  background-color: yellow;
   width: 50%;
   height: 100px;
   color: #09C1F3;
