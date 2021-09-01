@@ -108,6 +108,11 @@ iframe {
   color: #09C1F3;
 }
 
+p {
+  color: #09C1F3;
+  padding: 2rem;
+}
+
 .bloque__1 {
   text-align: center;
   background-color: gray;
