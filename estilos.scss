@@ -101,6 +101,14 @@ p {
 .imagenSobrenosotros:hover {
     filter: grayscale(80%);
 }
+li a:hover {
+    background-color: #09C1F3;
+    color: gray;
+}
+nav a:hover {
+    background-color: #09C1F3;
+    color: gray;
+}
 .bloque__1{
     text-align: center;
     padding: 3rem;
@@ -139,6 +147,11 @@ p {
 }
 @media (max-width: 768px) {
     form {
+        width: 100%;
+    }
+}
+@media (max-width: 360px) {
+    iframe {
         width: 100%;
     }
 }
