@@ -11,6 +11,9 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap" rel="stylesheet">
   <meta name="description" content="seccion dedicada a la venta de casas, terrenos, galpones y departamentos en excelentes zonas ya areas a precios y creditos accesibles a tus bolsillos">
   <meta name="keywords" content="ventas, compra, tasacion, casa, departamento, inmueble, terreno, adquisicon, valor, alquiler, tipo de inmueble, edificio, zona, area, cantidad, calidad, servicio">
   <meta name="ROBOTS" content="ALL">
@@ -22,49 +25,43 @@
     <meta name="title" content="Inmobiliaria Nuevo Mundo - Inmobiliaria de alquileres y ventas de inmuebles">
 </head>
 <body>
-	<!-- <header class="bloque__3"> -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alquileres.html">Alquileres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ventas.html">ventas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre nosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+  
   <header>
-    <img class="title" src="https://www.bing.com/images/blob?bcid=Ti3A.iOqLhoDlg" class="img-fluid" alt="Responsive image">
+    <img class="title" src="/imagenes/opc2.png" class="img-fluid" alt="Responsive image">
 	</header>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="Index.html">Inicio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Contacto.html">Contacto<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Alquileres.html">Alquileres</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ventas</a>
-        
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Ventas.html">Terrenos</a>
-          <a class="dropdown-item" href="Ventas.html">Departamentos</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Sobre nosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
-    <br>
 	<section>
-		<h4>tabla de inmuebles a la venta</h4>
-		<br>
-  <table class="table table-bordered table-dark">
+		<h4 class="tituloVentas">tabla de inmuebles a la venta</h4>
+  </section>
+
+    <table class="table table-dark table-bordered">
   <thead>
     <tr>
       <th class="table-info" scope="col">estudios</th>
@@ -74,7 +71,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><ol class="listado1" type="a">
+    <tr><ol type="a">
       <th scope="row">30000</th>
       <td>40000</td>
       <td>zona1</td>
@@ -95,17 +92,54 @@
     </tr>
   </tbody>
 </table>
-	</section>
-  <br>
-    <section class="confirm">
-    <p>A continuacion podra confirmar</p>
-      <div class="btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-secondary active">
-	<input type="checkbox" id="checkbox">confirmar venta.
-  </label>
-</div>
-	</section>
 
+  <div>
+    <p class="textoVentas">A continuacion se podra observar una galeria de imagenes de lo que ofrece la tabla para poder facilitarle su eleccion.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img  
+        src="/imagenes/estudio1.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="imagen Estudio"
+      />
+  
+      <img  
+        src="/imagenes/zona1.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="imagen Urbana"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img  
+        src="/imagenes/casa2.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="casa Con Pileta"
+      />
+  
+      <img  
+        src="/imagenes/estudio2.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="estudio En Casa"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img 
+        src="/imagenes/estudio3.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="estudio Para compartir"
+      />
+  
+      <img 
+        src="/imagenes/zona2.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 imagenVentas"
+        alt="imagen Rural"
+      />
+    </div>
+  </div>
 
   <footer class="text-center text-white">
     <!-- Grid container -->

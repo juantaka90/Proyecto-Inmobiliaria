@@ -1,17 +1,19 @@
 @import "variables.scss";
 
 .table {
-    margin: 15px;
-    text-align: center; 
-    max-width: 50%;
+    text-align: center;
+        margin: auto;
+        max-width: 95%;
 }
-h4 {
-    margin: 300px;
+.tituloVentas {
+    margin: 42px;
+    text-align: center;
     color: #09C1F3;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  'Azeret Mono', monospace;
+    text-decoration: underline;
 }
-form{
-    max-width: 30%;
+form {
+    width: 50%;
     padding: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 25rem;
@@ -36,96 +38,107 @@ i {
 h3 {
     font-weight: map-get($font-weight, 'medium');
     text-align: center;
+    color: #09C1F3;
+    padding: 20px;
+    font-family: 'Fira Mono', monospace;
+    text-decoration: underline;
 }
-.row{
-    padding: $small;
-    margin: $medium;
-    justify-content: space-evenly;
-}
-.col-sm{
+h1 {
     text-align: center;
-    font-size: $small;
-    color: $color-1;
-    text-shadow: 5px 5px 5px $color-2;
-    padding: $small;
+    color: #09C1F3;
+    font-family: 'Bebas Neue';
+    padding: 30px;
+    text-decoration: underline;
 }
-.textoColor {
-    padding: $small;
+h5 {
+    color: gray;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: underline;
 }
 .row {
-    justify-content: space-around;
+    margin: 0 !important; 
+}
+.texto {
+    padding: $small;
+    color:#09C1F3;
 }
 iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding: 2rem;
 }
-.textoindex {
+.textoIndex {
     margin: 25px;
     color:#09C1F3;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
-// .header__h1--color{
-//     color: red;
-// }
-// .header__h1{
-//     text-align: center;
-//     background-color: antiquewhite;
-//     font-size: 48px;
-//     font-family: fantasy;
-// }
-// .header__index--color{
-//     color:chocolate;
-// }
-// .header__index{
-//     text-align: center;
-//     font-size: 48px;
-//     font-family: cursive;
-//     background-color:cyan;
-// }
-// .header__alquileres--color{
-//     color:magenta;
-// }
-// .header__alquileres{
-//     font-size: 48px;
-//     font-family: monospace;
-//     text-align: center;
-//     background-color: mediumaquamarine;
-// }
-// .header__contacto--color{
-//     color:deeppink
-// }
-// .header__contacto{
-//     font-size: 48px;
-//     font-family: cursive;
-//     background-color: dimgray;
-//     text-align: center;
-// }
-
+.textoAlquileres {
+    padding: 1rem;
+    font-size: $small;
+    font-family: cursive;
+}
+.textoVentas {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Hina Mincho', serif;
+    font-size: 24px;
+}
+.textoNosotros {
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+}
+p {
+    color:#09C1F3;
+    margin: 3rem;
+}
+.imagenAlquileres:hover {
+    filter: sepia(60%);
+}
+.imagenVentas:hover {
+    filter: saturate(180%);
+}
+.imagenSobrenosotros:hover {
+    filter: grayscale(80%);
+}
 .bloque__1{
     text-align: center;
-    background-color: $color1;
-    width: ($porcentaje1) - ($porcentaje2)+55%;
-    height: $height/2.5;
+    padding: 3rem;
+    width: ($porcentaje1) - ($porcentaje2)+45%;
+    height: $height;
     font-size: $large;
     color: #09C1F3;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
 }
-.bloque__2{
-    background-color: $color3;
-    width: $porcentaje2;
-    height: $height/1.5;
+.bloque__2 {
+    text-align: center;
     color: #09C1F3;
     font-size: $small;
     padding: $small;
 }
-.bloque__3{
-    background-color: $color3;
-    width: ($width)+260;
-    height: $height*1.2;
-    color: #09C1F3;
-    font-size: $medium;
+@media (max-width: 360px) {
+        form {
+            width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    form {
+        width: 100%;
+    }
+}
+@media (max-width: 411px) {
+    form {
+        width: 100%;
+}
+}
+@media (max-width: 540px) {
+    form {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    form {
+        width: 100%;
+    }
 }

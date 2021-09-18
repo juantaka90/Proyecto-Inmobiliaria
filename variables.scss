@@ -21,23 +21,23 @@ $grupo-color: (
     'Coffe': #774936,
     'Black': #3C0000,
 );
-@each $grupo-color, $i in $grupo-color {
-    .textoColor {
-        &.#{$grupo-color} {
-        color: $i;
-        }
-    }
-}
+// @each $grupo-color, $i in $grupo-color {
+//     .textoColor {
+//         &.#{$grupo-color} {
+//         color: $i;
+//         }
+//     }
+// }
 $font-weight: (
     'light': 160px,
     'regular': 330px,
     'medium': 630px,
     'bold': 800px,
 );
-$iconos: 4;
+// $iconos: 4;
 
-@for $i from 1 through $iconos {
-    .icon-#{$i} {
-        color: lighten($color: blue, $amount: $i * 5);
-    }
-}
+// @for $i from 1 through $iconos {
+//     .icon-#{$i} {
+//         color: lighten($color: #09C1F3, $amount: $i * 5);
+//     }
+// }

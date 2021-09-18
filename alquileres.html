@@ -13,6 +13,14 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&family=Inconsolata:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
   <meta name="description" content="alquiler de casas, galpones y departamentos a precios accesibles en excelentes zonas">
   <meta name="keywords" content="alquiler, venta, terrenos, casas, departamentos, condominios, edificios, ubicacion, zonas, areas, residencial, urabana, cercania, todos los servicios, calidad, alquiler en zona centrica, una o mas personas, familias, sin mascota, con mascota, con fondo, sin fondo">
   <meta name="ROBOTS" content="ALL">
@@ -23,75 +31,162 @@
     <meta name="city" content="Buenos Aires">
     <meta name="title" content="Inmobiliaria Nuevo Mundo - Inmobiliaria de alquileres y ventas de inmuebles">
 </head>
-<body class="cuerpo3">
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alquileres.html">Alquileres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ventas.html">ventas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre nosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
 
 <header>
-  <img class="title" src="https://www.bing.com/images/blob?bcid=Ti3A.iOqLhoDlg" class="img-fluid" alt="Responsive image">
+  <img class="title" src="/imagenes/opc2.png" class="img-fluid" alt="Responsive image">
 </header>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="Index.html">Inicio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<div>
+	<p class="textoAlquileres">Si usted esta interesado en alquilar casas, depositos, galpones o cualquier otro inmueble no dude en ponerse en contacto con nosotros haciendo click en <a href="contacto.html">contacto</a>.</p>
+</div>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Contacto.html">Contacto<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Alquileres.html">Alquileres</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ventas
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Ventas.html">Terrenos</a>
-          <a class="dropdown-item" href="Ventas.html">Departamentos</a>
+<header>
+  <h2 class="bloque__1">Casas y Galpones</h2>
+</header>
+
+<section>
+  <!-- Single item -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/casa.jpg"
+              class="card-img-top"
+              alt="casa Familiar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">casa</h5>
+              <p class="card-text">
+                Casa en venta en zona residencial con 2 dormitorios, 1 baño, living/comedor y con cochera.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Sobre nosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
-  <div>
-	<p>Si usted esta interesado en alquilar casas, depositos, galpones o cualquier otro inmueble no dude en ponerse en contacto con nosotros haciendo click en <a href="contacto.html">contacto</a>.</p>
-</div>
-	<section class="imagenes1">
-	<header>
-		<h2 class="bloque__1">Casas y Galpones</h2>
-	</header>
-	
-  <div class="row">
-    <div class="col-sm">Algunas De Las Casas Disponibles</div>
-    <div class="col-sm">Depositos y Galpones</div>
-    <div class="w-100"></div>
-    <img src="https://www.namesnack.com/images/namesnack-real-estate-compant-names-5672x3755-20200915_2020-09-15-072727.jpeg?crop=21:16,smart&width=420&dpr=2">
-    <img src="https://resizer.glanacion.com/resizer/78nDg9JX0QIB989_O1T3Rf3QPto=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/5BBJKNZYZJDCXITZ57CCMZIUUM.JPG">
-  </div>
-</div>
-	<!-- <div class="Casa">	
-	<p class="llave1">Casa</p>
-	<p class="parrafo1">algunas de las casas disponibles</p>
-	<img class="borde2" src="https://www.namesnack.com/images/namesnack-real-estate-compant-names-5672x3755-20200915_2020-09-15-072727.jpeg?crop=21:16,smart&width=420&dpr=2" alt="casas">
-	</div>
 
-	<div class="Depositos">
-	<p class="parrafo1">alguno de nuestros depositos y galpones disponibles</p>
-	<p class="parrafo1">Depositos y Galpones</p>
-	<img class="borde1" src="https://resizer.glanacion.com/resizer/78nDg9JX0QIB989_O1T3Rf3QPto=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/5BBJKNZYZJDCXITZ57CCMZIUUM.JPG" alt="Galpones y Depositos">
-	</div> -->
-    </section>
-    <br>
-    <br>
+        <div class="col-lg-4 d-lg-block">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/galpon.jpg"
+              class="card-img-top"
+              alt="galpon Amplio"
+            />
+            <div class="card-body">
+              <h5 class="card-title">galpon</h5>
+              <p class="card-text">
+                Galpon en alquiler/venta de unos 80m2, se encuentra ubicado en zona rural, cuenta con sistema de alarma.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-lg-block">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/pordentro.jpg"
+              class="card-img-top"
+              alt="ejemplo Casa"
+            />
+            <div class="card-body">
+              <h5 class="card-title">casa por dentro</h5>
+              <p class="card-text">
+                Casa de 2 pisos, ubicada en zona centrica, dispones de 2 baños, 2 dormitorios, living/comer,cochera y sistema de alarma.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/casa1.jpg"
+              class="card-img-top"
+              alt="casa Con jardin"
+            />
+            <div class="card-body">
+              <h5 class="card-title">casa</h5>
+              <p class="card-text">
+                Casa en venta ubicada en zona rural con 2 dormitorios, 2 baño, living/comedor y con cochera.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-lg-block">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/galpon2.jpg"
+              class="card-img-top"
+              alt="galpon Alterno"
+            />
+            <div class="card-body">
+              <h5 class="card-title">galpon zona rural</h5>
+              <p class="card-text">
+                Amplio galpon ubicado en zona rural, dispone de un sistema de alarmas y dispone de un obrador interno de 20x20.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-lg-block">
+          <div class="card">
+            <img class="imagenAlquileres"
+              src="\imagenes/galpon3.jpg"
+              class="card-img-top"
+              alt="galpon Estrenar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">galpon</h5>
+              <p class="card-text">
+                Galpon de 100m2 ubicado en zona urbana, cuenta con un sistema de alarmas, estacionamiento propio y cabina de seguridad.
+              </p>
+              <a href="contacto.html" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer class="text-center text-white">
       <!-- Grid container -->
@@ -143,6 +238,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>
