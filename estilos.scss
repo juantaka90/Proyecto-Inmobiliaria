@@ -111,7 +111,7 @@ nav a:hover {
 }
 .bloque__1{
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     width: ($porcentaje1) - ($porcentaje2)+45%;
     height: $height;
     font-size: $large;
@@ -124,6 +124,9 @@ nav a:hover {
     color: #09C1F3;
     font-size: $small;
     padding: $small;
+}
+.container {
+    margin-bottom: 15px;
 }
 @media (max-width: 360px) {
         form {
@@ -153,5 +156,40 @@ nav a:hover {
 @media (max-width: 360px) {
     iframe {
         width: 100%;
+    }
+}
+@media (max-width: 280px) {
+    .imagenSlider {
+        height: 250px;
+    }
+}
+@media (max-width: 375px) {
+    .imagenSlider {
+        height: 250px;
+    }
+}
+@media (max-width: 414px) {
+    .imagenSlider {
+        height: 200px;
+    }
+}
+@media (max-width: 360px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 411px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 414px) {
+    .card {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 10px;
     }
 }

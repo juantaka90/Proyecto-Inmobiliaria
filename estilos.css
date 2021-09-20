@@ -133,7 +133,7 @@ nav a:hover {
 
 .bloque__1 {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   width: 95%;
   height: 150px;
   font-size: 38px;
@@ -147,6 +147,10 @@ nav a:hover {
   color: #09C1F3;
   font-size: 18px;
   padding: 18px;
+}
+
+.container {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 360px) {
@@ -177,5 +181,40 @@ nav a:hover {
 @media (max-width: 360px) {
   iframe {
     width: 100%;
+  }
+}
+@media (max-width: 280px) {
+  .imagenSlider {
+    height: 250px;
+  }
+}
+@media (max-width: 375px) {
+  .imagenSlider {
+    height: 250px;
+  }
+}
+@media (max-width: 414px) {
+  .imagenSlider {
+    height: 200px;
+  }
+}
+@media (max-width: 360px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 411px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=estilos.css.map */
