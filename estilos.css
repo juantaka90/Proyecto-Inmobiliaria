@@ -217,4 +217,19 @@ nav a:hover {
   .card {
     margin-bottom: 10px;
   }
+}
+@media (max-width: 990px) {
+  .card-text {
+    height: 190px;
+  }
+}
+@media (max-width: 1024px) {
+  .card-text {
+    height: 190px;
+  }
+}
+@media (max-width: 1200px) {
+  .card-text {
+    height: 190px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
